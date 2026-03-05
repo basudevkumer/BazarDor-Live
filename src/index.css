@@ -1,1 +1,104 @@
 @import "tailwindcss";
+
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+
+/* CSS Custom Property for Font */
+:root {
+  --font-siliguri: "Hind Siliguri", sans-serif;
+}
+
+/* for any typography  */
+@theme {
+  /* Primary Text Colors */
+  --color-primary: #111827;
+  --color-secondary: #374151;
+  --color-muted: #6b7280;
+  --color-light: #9ca3af;
+
+  /* Heading Text */
+  --color-heading: #0f172a;
+
+  /* Danger / Error */
+  --color-danger: #dc2626;
+
+  /* Success */
+  --color-success: #16a34a;
+  /* govt price */
+  --color-govt-price: #6438ea;
+}
+
+/* Apply font using Tailwind @layer base */
+@layer base {
+  body {
+    font-family: var(--font-siliguri);
+  }
+}
+
+@layer components {
+  /* for heading */
+
+  /* H1 - Hero Title */
+  .heading-one {
+    @apply text-[clamp(32px,4vw,36px)] leading-[150%] font-bold;
+  }
+
+  /* H2 - Section Title */
+  .heading-two {
+    @apply text-[clamp(28px,3.5vw,32px)] leading-[150%] font-semibold;
+  }
+
+  /* H3 */
+  .heading-three {
+    @apply text-[clamp(24px,3vw,28px)] leading-[150%] font-semibold;
+  }
+
+  /* H4 */
+  .heading-four {
+    @apply text-[clamp(22px,2.5vw,24px)] leading-[150%] font-medium;
+  }
+
+  /* H5 */
+  .heading-five {
+    @apply text-[clamp(20px,2vw,22px)] leading-[150%] font-medium;
+  }
+
+  /* H6 */
+  .heading-six {
+    @apply text-[clamp(18px,1.5vw,20px)] leading-[150%] font-medium;
+  }
+
+  /* for peragraph  */
+
+  /* Normal Paragraph */
+  .para-normal {
+    @apply text-[16px] leading-[160%] font-normal;
+  }
+
+  /* Medium Paragraph */
+  .para-medium {
+    @apply text-[16px] leading-[160%] font-medium;
+  }
+
+  /* Semi Bold Paragraph */
+  .para-semibold {
+    @apply text-[16px] leading-[160%] font-semibold;
+  }
+
+  /* Bold Paragraph */
+  .para-bold {
+    @apply text-[16px] leading-[160%] font-bold;
+  }
+}
+
+
+.p{
+  color: #0f172adc;
+}
+/* color stack
+1. black
+2. yellow.
+3. green
+4. white
+5. orange
+*/

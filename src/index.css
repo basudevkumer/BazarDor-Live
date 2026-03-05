@@ -1,7 +1,6 @@
-@import "tailwindcss";
-
 /* Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
 
 /* CSS Custom Property for Font */
 :root {
@@ -89,16 +88,22 @@
   .para-bold {
     @apply text-[16px] leading-[160%] font-bold;
   }
+
+  /* for navITems */
+  .navitems {
+    @apply text-lg/[150%] font-semibold;
+  }
 }
 
-
-.p{
+.p {
   color: #0f172adc;
 }
+
+input:focus-visible {
+  outline: none;
+}
+
 /* color stack
-1. black
-2. yellow.
-3. green
-4. white
-5. orange
+1. white
+2. green
 */

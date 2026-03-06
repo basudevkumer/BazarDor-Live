@@ -10,7 +10,7 @@ const Footer = () => {
   const { appImages } = allImages;
 
   return (
-    <footer>
+    <footer className="py-[100px]">
       <Container>
         <div className="grid grid-cols-6 gap-x-[80px]">
           <div className="">

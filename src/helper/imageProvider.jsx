@@ -35,7 +35,7 @@ const allImages = {
     { id: 6, img: Meat },
     { id: 7, img: Egg },
     { id: 8, img: Milk },
-   
+
     { id: 9, img: Oil },
     { id: 10, img: Mosla },
     { id: 11, img: Ata },
@@ -44,8 +44,6 @@ const allImages = {
     { id: 14, img: Tea },
     { id: 15, img: Onion },
     { id: 16, img: Potato },
-  
-
   ],
 };
 

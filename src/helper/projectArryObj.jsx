@@ -209,4 +209,151 @@ const categoriesItems = [
     price: "৳30-40 / কেজি",
   },
 ];
-export { navItems, siteData, categoriesItemsHeadings, categoriesItems };
+
+const productPriceItems = [
+  {
+    id: 1,
+    productName: "চাল",
+    todayPrice: "৳85",
+    yesterdayPrice: "৳80",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[0].img,
+    imgAlt: "চাল"
+  },
+  {
+    id: 2,
+    productName: "ডাল",
+    todayPrice: "৳130",
+    yesterdayPrice: "৳125",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[1].img,
+    imgAlt: "ডাল"
+  },
+  {
+    id: 3,
+    productName: "শাকসবজি",
+    todayPrice: "৳60",
+    yesterdayPrice: "৳55",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[2].img,
+    imgAlt: "শাকসবজি"
+  },
+  {
+    id: 4,
+    productName: "ফলমূল",
+    todayPrice: "৳150",
+    yesterdayPrice: "৳145",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[3].img,
+    imgAlt: "ফলমূল"
+  },
+  {
+    id: 5,
+    productName: "মাছ",
+    todayPrice: "৳320",
+    yesterdayPrice: "৳300",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[4].img,
+    imgAlt: "মাছ"
+  },
+  {
+    id: 6,
+    productName: "মাংস",
+    todayPrice: "৳720",
+    yesterdayPrice: "৳700",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[5].img,
+    imgAlt: "মাংস"
+  },
+  {
+    id: 7,
+    productName: "ডিম",
+    todayPrice: "৳150",
+    yesterdayPrice: "৳145",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[6].img,
+    imgAlt: "ডিম"
+  },
+  {
+    id: 8,
+    productName: "দুধ",
+    todayPrice: "৳95",
+    yesterdayPrice: "৳90",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[7].img,
+    imgAlt: "দুধ"
+  },
+  {
+    id: 9,
+    productName: "ভোজ্য তেল",
+    todayPrice: "৳190",
+    yesterdayPrice: "৳185",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[8].img,
+    imgAlt: "ভোজ্য তেল"
+  },
+  {
+    id: 10,
+    productName: "মসলা",
+    todayPrice: "৳750",
+    yesterdayPrice: "৳730",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[9].img,
+    imgAlt: "মসলা"
+  },
+  {
+    id: 11,
+    productName: "আটা",
+    todayPrice: "৳65",
+    yesterdayPrice: "৳63",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[10].img,
+    imgAlt: "আটা"
+  },
+  {
+    id: 12,
+    productName: "চিনি",
+    todayPrice: "৳135",
+    yesterdayPrice: "৳130",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[11].img,
+    imgAlt: "চিনি"
+  },
+  {
+    id: 13,
+    productName: "লবণ",
+    todayPrice: "৳42",
+    yesterdayPrice: "৳40",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[12].img,
+    imgAlt: "লবণ"
+  },
+  {
+    id: 14,
+    productName: "চা",
+    todayPrice: "৳800",
+    yesterdayPrice: "৳780",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[13].img,
+    imgAlt: "চা"
+  },
+  {
+    id: 15,
+    productName: "পেঁয়াজ",
+    todayPrice: "৳110",
+    yesterdayPrice: "৳105",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[14].img,
+    imgAlt: "পেঁয়াজ"
+  },
+  {
+    id: 16,
+    productName: "আলু",
+    todayPrice: "৳38",
+    yesterdayPrice: "৳35",
+    dateTimes: "৬ মার্চ ২০২৬",
+    srcImage: categoryImages[15].img,
+    imgAlt: "আলু"
+  }
+];
+export { navItems, siteData, categoriesItemsHeadings, categoriesItems,productPriceItems };

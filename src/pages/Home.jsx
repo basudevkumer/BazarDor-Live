@@ -6,15 +6,17 @@ import CategoryCarocell from "../components/common/CategoryCarocell";
 import CategroyUITwo from "../components/common/CategroyUITwo";
 import HighPriceSlider from "../components/home/highPriceSlider/Index";
 import LowPriceSlider from "../components/home/lowPriceSlider/Index";
+import PricePorductCart from "../components/common/PricePorductCart";
+import HomeProducts from "../components/home/product/Index";
 
 const Home = () => {
   return (
     <>
       <Sliders />
       <Category />
+      <HomeProducts/>
       <HighPriceSlider/>
       <LowPriceSlider/>
-      
     </>
   );
 };

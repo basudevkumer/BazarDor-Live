@@ -1,15 +1,17 @@
 import React from "react";
 
-const CategroyUIOne = ({ className, description, name, imgSrc, imgAlt }) => {
+const CategroyUIOne = ({  description, name, imgSrc, imgAlt ,bgColor}) => {
   return (
     <div
-      className={` w-[200px]  p-5 bg-gray-300 rounded-[4px]   ${className} `}
+      className={`    p-5 min-h-[290px]  rounded-[4px]   `}
+      style={{ backgroundColor: bgColor }}
     >
       <figure>
         <img
           src={imgSrc}
           alt={imgAlt}
-          className=" w-full h-[150px] object-cover "
+          className=" object-cover  w-full"
+          style={{height:"150px"}}
         />
       </figure>
       <div className="pt-[18px] space-y-1">

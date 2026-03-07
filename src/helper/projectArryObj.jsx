@@ -1,3 +1,8 @@
+import allImages from "./imageProvider";
+
+//for images
+const {categoryImages}  = allImages
+
 const navItems = [
   { id: 1, name: "হোম", path: "/" },
   { id: 2, name: "বাজার দর", path: "/market-prices" },
@@ -62,7 +67,7 @@ const categoriesItems = [
   {
     id: 1,
     name: "চাল",
-    image: "assets/images/rice.png",
+    image: categoryImages[0].img,
     bgColor: "#FDE2E2",
     slug: "rice",
     description: "B ভিটামিন ও শক্তি",
@@ -70,7 +75,7 @@ const categoriesItems = [
   {
     id: 2,
     name: "ডাল",
-    image: "assets/images/lentils.png",
+     image: categoryImages[1].img,
     bgColor: "#FFF0F5",
     slug: "lentils",
     description: "প্রোটিন ও ফাইবার",
@@ -78,7 +83,7 @@ const categoriesItems = [
   {
     id: 3,
     name: "শাকসবজি",
-    image: "assets/images/vegetables.png",
+    image: categoryImages[2].img,
     bgColor: "#E6F7E6",
     slug: "vegetables",
     description: "ভিটামিন A, C, আয়রন",
@@ -86,7 +91,7 @@ const categoriesItems = [
   {
     id: 4,
     name: "ফলমূল",
-    image: "assets/images/fruits.png",
+    image: categoryImages[3].img,
     bgColor: "#FFF9E6",
     slug: "fruits",
     description: "ভিটামিন C, অ্যান্টি-অক্সিডেন্ট",
@@ -94,7 +99,7 @@ const categoriesItems = [
   {
     id: 5,
     name: "মাছ",
-    image: "assets/images/fish.png",
+     image: categoryImages[4].img,
     bgColor: "#E0F7FF",
     slug: "fish",
     description: "ওমেগা-৩ ও প্রোটিন",
@@ -102,7 +107,7 @@ const categoriesItems = [
   {
     id: 6,
     name: "মাংস",
-    image: "assets/images/meat.png",
+    image: categoryImages[5].img,
     bgColor: "#FFE6E6",
     slug: "meat",
     description: "প্রোটিন ও আয়রন",
@@ -110,7 +115,7 @@ const categoriesItems = [
   {
     id: 7,
     name: "ডিম",
-    image: "assets/images/eggs.png",
+    image: categoryImages[6].img,
     bgColor: "#FFF8E6",
     slug: "eggs",
     description: "প্রোটিন, D ভিটামিন",
@@ -118,7 +123,7 @@ const categoriesItems = [
   {
     id: 8,
     name: "দুধ ও দুগ্ধজাত",
-    image: "assets/images/milk.png",
+    image: categoryImages[7].img,
     bgColor: "#E8F4FF",
     slug: "milk-dairy",
     description: "ক্যালসিয়াম ও D ভিটামিন",
@@ -126,7 +131,7 @@ const categoriesItems = [
   {
     id: 9,
     name: "ভোজ্য তেল",
-    image: "assets/images/oil.png",
+    image: categoryImages[8].img,
     bgColor: "#FFF5E6",
     slug: "edible-oil",
     description: "স্বাস্থ্যকর ফ্যাট",
@@ -134,7 +139,7 @@ const categoriesItems = [
   {
     id: 10,
     name: "মসলা",
-    image: "assets/images/spices.png",
+     image: categoryImages[9].img,
     bgColor: "#FFF0E6",
     slug: "spices",
     description: "অ্যান্টি-অক্সিডেন্ট",
@@ -142,7 +147,7 @@ const categoriesItems = [
   {
     id: 11,
     name: "আটা ও ময়দা",
-    image: "assets/images/flour.png",
+     image: categoryImages[10].img,
     bgColor: "#FFFDF0",
     slug: "flour",
     description: "ফাইবার, B ভিটামিন",
@@ -150,7 +155,7 @@ const categoriesItems = [
   {
     id: 12,
     name: "চিনি",
-    image: "assets/images/sugar.png",
+  image: categoryImages[11].img,
     bgColor: "#FFF5F5",
     slug: "sugar",
     description: "দ্রুত শক্তি",
@@ -158,7 +163,7 @@ const categoriesItems = [
   {
     id: 13,
     name: "লবণ",
-    image: "assets/images/salt.png",
+    image: categoryImages[12].img,
     bgColor: "#F0F0F0",
     slug: "salt",
     description: "সোডিয়াম, শরীর নিয়ন্ত্রণ",
@@ -166,7 +171,7 @@ const categoriesItems = [
   {
     id: 14,
     name: "চা ও কফি",
-    image: "assets/images/tea.png",
+     image: categoryImages[13].img,
     bgColor: "#FFF3E6",
     slug: "tea-coffee",
     description: "অ্যান্টি-অক্সিডেন্ট, সতর্কতা",
@@ -174,7 +179,7 @@ const categoriesItems = [
   {
     id: 15,
     name: "পেঁয়াজ ও রসুন",
-    image: "assets/images/onion.png",
+    image: categoryImages[14].img,
     bgColor: "#FFEFE6",
     slug: "onion-garlic",
     description: "অ্যান্টি-ব্যাকটেরিয়াল",
@@ -182,7 +187,7 @@ const categoriesItems = [
   {
     id: 16,
     name: "আলু",
-    image: "assets/images/potato.png",
+    image: categoryImages[15].img,
     bgColor: "#FFFDE6",
     slug: "potato",
     description: "ভিটামিন C ও শক্তি",

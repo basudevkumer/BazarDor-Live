@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import allIcons from "../../helper/iconProvider";
+import CategoryUIOne from "../common/CategroyUIOne";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,7 +9,9 @@ import "swiper/css";
 import "swiper/css/free-mode";
 
 // import required modules
-import { FreeMode ,Navigation} from "swiper/modules";
+import { FreeMode, Navigation } from "swiper/modules";
+
+import { categoriesItems } from "../../helper/projectArryObj";
 
 const CategoryCarocell = () => {
   // for icons
@@ -24,22 +27,30 @@ const CategoryCarocell = () => {
         <span className="text-xl text-gray_00">{arrowIcon[1].icon}</span>
       </button>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={6}
         spaceBetween={30}
         freeMode={true}
-        modules={[FreeMode,Navigation]}
+        modules={[FreeMode, Navigation]}
         className="mySwiper"
         navigation={{
           prevEl: ".custom-swiper-button-prev",
           nextEl: ".custom-swiper-button-next",
         }}
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-       
+        {categoriesItems.map((items, index) => {
+          return (
+            <SwiperSlide key={index}>
+              {" "}
+              <CategoryUIOne
+                imgAlt={items.slug}
+                description={items.description}
+                name={items.name}
+                imgSrc={items.image}
+                bgColor={`${items.bgColor}`}
+              />{" "}
+            </SwiperSlide>
+          );
+        })}
       </Swiper>
     </div>
   );

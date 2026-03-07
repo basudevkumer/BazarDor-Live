@@ -28,7 +28,7 @@ const Category = () => {
               })}
             </ul>
           </div>
-          <div>
+          <div className="mt-10">
             <CategoryCarocell/>
           </div>
         </div>

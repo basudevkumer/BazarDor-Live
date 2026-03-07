@@ -15,7 +15,7 @@ const PricePorductCart = ({
 
   return (
     <div
-      className={`p-[18px] flex gap-x-5 items-center bg-white shadow-lg hover:translate-y-[-5px] transition duration-300 ease-in-out rounded-lg ${className}`}
+      className={`p-[18px] h-fit flex gap-x-5 items-center bg-white shadow-lg hover:translate-y-[-5px] transition duration-300 ease-in-out rounded-lg ${className}`}
     >
       <div className="">
         <figure>

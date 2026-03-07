@@ -165,3 +165,19 @@ input:focus-visible {
   stroke-dasharray: 125.6;
   transform: rotate(-90deg);
 }
+
+/* for scrollbar */
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}

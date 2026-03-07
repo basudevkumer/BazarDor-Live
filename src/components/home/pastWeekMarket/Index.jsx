@@ -79,6 +79,7 @@ const PastWeekMarket = () => {
                       srcImage={items.image}
                       productName={items.name}
                       productPrices={items.price}
+                      
                     />
                   );
                 })}

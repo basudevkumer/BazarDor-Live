@@ -18,6 +18,8 @@ import Solt from "../assets/images/solt.png";
 import Tea from "../assets/images/tea.png";
 import Onion from "../assets/images/onion.jpg";
 import Potato from "../assets/images/potato.png";
+import GetTheAppBannar from "../assets/images/home-playstore-banner.png";
+import GetTheAppImages from "../assets/images/home-playstore-images.png";
 
 const allImages = {
   appImages: [
@@ -45,6 +47,8 @@ const allImages = {
     { id: 15, img: Onion },
     { id: 16, img: Potato },
   ],
+  getTheAppBannar: GetTheAppBannar,
+  getTheAppImages: GetTheAppImages,
 };
 
 export default allImages;

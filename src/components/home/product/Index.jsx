@@ -81,7 +81,6 @@ const HomeProducts = () => {
               })}
             </div>
           </div>
-          
         </div>
       </Container>
     </section>

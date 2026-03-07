@@ -13,17 +13,17 @@ import { FreeMode, Navigation } from "swiper/modules";
 
 import { categoriesItems } from "../../helper/projectArryObj";
 
-const CategoryCarocell = () => {
+const CategoryHighPrices = () => {
   // for icons
   const { arrowIcon } = allIcons;
 
   return (
     <div className="relative ">
       {/* data comes from useCategory destructure */}
-      <button className="category-swiper-button-prev absolute left-[-25px]  top-1/2 -translate-y-1/2  h-[48px] w-[48px] border border-primary_500 rounded-full flex justify-center items-center bg-green-500 z-10 cursor-pointer">
+      <button className="highprice-swiper-button-prev absolute left-[-25px]  top-1/2 -translate-y-1/2  h-[48px] w-[48px] border border-primary_500 rounded-full flex justify-center items-center bg-green-500 z-10 cursor-pointer">
         <span className="text-xl text-gray_00">{arrowIcon[0].icon}</span>
       </button>
-      <button className="category-swiper-button-next absolute right-[-25px]  top-1/2 -translate-y-1/2  h-[48px] w-[48px] border border-primary_500 rounded-full flex justify-center items-center bg-green-400 z-10 cursor-pointer">
+      <button className="highprice-swiper-button-next absolute right-[-25px]  top-1/2 -translate-y-1/2  h-[48px] w-[48px] border border-primary_500 rounded-full flex justify-center items-center bg-green-400 z-10 cursor-pointer">
         <span className="text-xl text-gray_00">{arrowIcon[1].icon}</span>
       </button>
       <Swiper
@@ -33,8 +33,8 @@ const CategoryCarocell = () => {
         modules={[FreeMode, Navigation]}
         className="mySwiper"
         navigation={{
-          prevEl: ".category-swiper-button-prev",
-          nextEl: ".category-swiper-button-next",
+          prevEl: ".highprice-swiper-button-prev",
+          nextEl: ".highprice-swiper-button-next",
         }}
       >
         {categoriesItems.map((items, index) => {
@@ -43,7 +43,7 @@ const CategoryCarocell = () => {
               {" "}
               <CategoryUIOne
                 imgAlt={items.slug}
-                description={items.description}
+                description={items.price}
                 name={items.name}
                 imgSrc={items.image}
                 bgColor={`${items.bgColor}`}
@@ -56,4 +56,4 @@ const CategoryCarocell = () => {
   );
 };
 
-export default CategoryCarocell;
+export default CategoryHighPrices;

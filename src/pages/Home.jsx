@@ -5,6 +5,7 @@ import LowPriceSlider from "../components/home/lowPriceSlider/Index";
 import HomeProducts from "../components/home/product/Index";
 import PastWeekMarket from "../components/home/pastWeekMarket/Index";
 import GetTheApp from "../components/home/getTheApp/Index";
+import GovtMessage from "../components/home/govtMessage/Index";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <LowPriceSlider />
       <PastWeekMarket />
       <GetTheApp />
+      <GovtMessage/>
     </>
   );
 };

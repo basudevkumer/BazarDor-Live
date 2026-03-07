@@ -1,9 +1,14 @@
 import { GoSearch } from "react-icons/go";
 import { LiaSignInAltSolid } from "react-icons/lia";
 import { FiLogIn } from "react-icons/fi";
-import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
+import {
+  FaArrowLeftLong,
+  FaArrowRightLong,
+  FaGreaterThan,
+} from "react-icons/fa6";
 import { HiMiniArrowTrendingUp } from "react-icons/hi2";
 import { HiMiniArrowTrendingDown } from "react-icons/hi2";
+import { IoHomeOutline } from "react-icons/io5";
 
 
 const allIcons = {
@@ -20,6 +25,11 @@ const allIcons = {
     { id: 1, icon: <HiMiniArrowTrendingUp /> },
     { id: 2, icon: <HiMiniArrowTrendingDown /> },
   ],
+
+  greaterThan: <FaGreaterThan />,
+   homeIcon: <IoHomeOutline />,
+
+  
 };
 
 export default allIcons;

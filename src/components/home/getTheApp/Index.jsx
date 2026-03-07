@@ -3,7 +3,7 @@ import Container from "../../common/Container";
 import allImages from "../../../helper/imageProvider";
 
 const GetTheApp = () => {
-  const { getTheAppBannar, getTheAppImages } = allImages;
+  const { getTheAppBannar, getTheAppImages,appImages } = allImages;
   return (
     <section
       style={{ backgroundImage: `url(${getTheAppBannar})` }}
@@ -14,7 +14,7 @@ const GetTheApp = () => {
           <div>
             <h2 className=" ">
               {" "}
-              <span className="text-[70px]/[150%] font-bold text-success">
+              <span className="text-[70px]/[170%] font-bold text-success">
                 {" "}
                 বাজার দর -
               </span>
@@ -22,7 +22,20 @@ const GetTheApp = () => {
                 প্রতিদিনের সরকারি ও বাজার মূল্যের স্বচ্ছ তথ্য
               </span>{" "}
             </h2>
-            <p className="mt-3 heading-six text-secondary">“iOS ও Android-এ ডাউনলোড করুন”</p>
+            <p className="mt-4 heading-six text-secondary">
+              “iOS ও Android-এ ডাউনলোড করুন”
+            </p>
+            <div className="mt-[57px] ">
+              <figure className="flex items-center ">
+                {appImages.map((items) => {
+                  return (
+                    <a href="#" key={items.id}>
+                      <img src={items.img} alt={items.img} />
+                    </a>
+                  );
+                })}
+              </figure>
+            </div>
           </div>
           <div>
             <figure>

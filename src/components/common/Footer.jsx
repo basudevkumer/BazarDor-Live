@@ -81,7 +81,7 @@ const Footer = () => {
 
             <div className="mt-7"> 
               <h4 className="mb-4 heading-five text-primary">অ্যাপ ডাউনলোড করুন</h4>
-              <figure className="flex  justify-between ">
+              <figure className="flex items-center justify-between ">
                 {appImages.map((items) => {
                   return (
                     <a href="#" key={items.id}>

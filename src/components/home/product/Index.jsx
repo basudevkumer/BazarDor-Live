@@ -63,7 +63,7 @@ const HomeProducts = () => {
                       height: `${virtualItem.size}px`,
                       transform: `translateY(${virtualItem.start}px)`,
                     }}
-                    className=" grid grid-cols-3 gap-[35px] "
+                    className=" grid grid-cols-3 gap-x-[30px] "
                   >
                     {sliderPerViewRow.map((item) => (
                       <PricePorductCart

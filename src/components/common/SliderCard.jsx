@@ -8,7 +8,7 @@ const SliderCard = () => {
   return (
     <div
       style={{ backgroundImage: `url(${banner})` }}
-      className="object-cover w-full h-[477px]  relative overflow-hidden "
+      className="object-cover w-full h-[500px]  relative overflow-hidden "
     >
       <figure className="absolute top-0 right-0">
         <img src={heroImages} alt="heroImages" />
@@ -18,14 +18,14 @@ const SliderCard = () => {
         <div className="grid grid-cols-1 lg:grid-cols-4  text-start gap-x-[148px] ">
           <div className="space-y-6  col-span-3  py-[75px]">
             <div className="flex   items-center  gap-x-[100px]">
-              <div class="">
+              <div >
                 <h2 className="text-[75px] font-bold text-success">পেঁয়াজ</h2>
                 <p className="heading-four text-secondary">
                   পণ্যের ধরন : শাকসবজি
                 </p>
               </div>
 
-              <div class="">
+              <div >
                 <p className="heading-three text-secondary">
                   সরকারি মূল্য :{" "}
                   <span className="text-govt-price">৫০ টাকা / কেজি</span>
@@ -36,7 +36,7 @@ const SliderCard = () => {
               </div>
             </div>
 
-            <div class=" grid grid-cols-3  ">
+            <div className=" grid grid-cols-3  ">
               <div className="w-fit space-y-3">
                 <p className="heading-four">ওজন: 1 কেজি</p>
                 <p className="heading-four">উৎপত্তি অঞ্চল: ঢাকা</p>
@@ -49,7 +49,7 @@ const SliderCard = () => {
               </div>
             </div>
 
-            <div class="">
+            <div >
               <p className="para-medium text-secondary">
                 সর্বশেষ আপডেট : 12 মার্চ 2026
               </p>

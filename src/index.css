@@ -96,7 +96,7 @@
 }
 
 .p {
-  color: #0f172adc;
+  color: #ECFFEC;
 }
 
 input:focus-visible {
@@ -121,7 +121,7 @@ input:focus-visible {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: #444;
+
 
   /* Center slide text vertically */
   display: flex;

@@ -8,6 +8,7 @@ import HighPriceSlider from "../components/home/highPriceSlider/Index";
 import LowPriceSlider from "../components/home/lowPriceSlider/Index";
 import PricePorductCart from "../components/common/PricePorductCart";
 import HomeProducts from "../components/home/product/Index";
+import PastWeekMarket from "../components/home/pastWeekMarket/Index";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <HomeProducts/>
       <HighPriceSlider/>
       <LowPriceSlider/>
+      <PastWeekMarket/>
     </>
   );
 };

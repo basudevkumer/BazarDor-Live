@@ -5,6 +5,7 @@ import Category from "../components/home/category/Index";
 import CategoryCarocell from "../components/common/CategoryCarocell";
 import CategroyUITwo from "../components/common/CategroyUITwo";
 import HighPriceSlider from "../components/home/highPriceSlider/Index";
+import LowPriceSlider from "../components/home/lowPriceSlider/Index";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <Sliders />
       <Category />
       <HighPriceSlider/>
+      <LowPriceSlider/>
       
     </>
   );

@@ -10,7 +10,7 @@ const App = () => {
       <Routes>
         <Route element={<Rootlayout />}>
           <Route index element={<Home />}></Route>
-          <Route path={`/market-price`} element={<MarketPrice />}></Route>
+          <Route path={`/market-prices`} element={<MarketPrice />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -356,4 +356,13 @@ const productPriceItems = [
     imgAlt: "আলু"
   }
 ];
-export { navItems, siteData, categoriesItemsHeadings, categoriesItems,productPriceItems };
+const sortOptions = [
+  { label: "ডিফল্ট সাজানো", value: "" },
+  { label: "দাম কম থেকে বেশি", value: "price-asc" },
+  { label: "দাম বেশি থেকে কম", value: "price-desc" },
+  { label: "পণ্যের নাম (অ → হ)", value: "name-asc" },
+  { label: "পণ্যের নাম (হ → অ)", value: "name-desc" },
+];
+
+
+export { navItems, siteData, categoriesItemsHeadings, categoriesItems,productPriceItems ,sortOptions};

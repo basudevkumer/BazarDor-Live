@@ -5,6 +5,7 @@ import { navItems } from "../../helper/projectArryObj";
 import allIcons from "../../helper/iconProvider";
 import Button from "./Button";
 import CommonLogo from "./CommonLogo";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { search, authIcon } = allIcons;
@@ -43,12 +44,12 @@ const Navbar = () => {
               {navItems.map((items) => {
                 return (
                   <li key={items.id}>
-                    <a
-                      href="#"
+                    <Link to={items.path}
+                      
                       className="navitems text-primary hover:text-success transition-all duration-300 ease-in-out inline-block   relative after:absolute after:content-[''] after:w-full after:h-[2px] after:bg-success after:bottom-[0px] after:left-[-100%] hover:after:left-0  overflow-hidden pb-[2px]  after:transition-all after:duration-300 after:ease-in-out"
                     >
                       {items.name}
-                    </a>
+                    </Link>
                   </li>
                 );
               })}

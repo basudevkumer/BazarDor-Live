@@ -4,27 +4,33 @@ import Container from "../common/Container";
 import { navItems } from "../../helper/projectArryObj";
 import allIcons from "../../helper/iconProvider";
 import Button from "./Button";
+import CommonLogo from "./CommonLogo";
 
 const Navbar = () => {
-  const { search ,authIcon} = allIcons;
+  const { search, authIcon } = allIcons;
   return (
     <nav className="">
       <div className="py-6 shadow-sm ">
         <Container>
           <div className="flex items-center justify-between">
-            <h6 className="text-success heading-six">বাজার দর</h6>
+            {/* <h6 className="text-success heading-six">বাজার দর</h6> */}
+            <div className="">
+              <CommonLogo />
+            </div>
             <div className=" border border-gray-400 w-[500px] relative  px-7 py-3 rounded-[40px]  ">
               <input
                 type="text"
                 placeholder="এখানে সার্চ করুন"
                 className="w-[450px]  para-normal text-secondary "
               />
-              <span className="absolute top-1/2 -translate-y-1/2 right-4  text-2xl text-gray-600  " >{search}</span>
+              <span className="absolute top-1/2 -translate-y-1/2 right-4  text-2xl text-gray-600  ">
+                {search}
+              </span>
             </div>
             <div>
               <div className="flex gap-x-3">
-                <Button children={"নিবন্ধন"} icon={authIcon[0].icon}/>
-                <Button children={"লগইন"} icon={authIcon[1].icon}/>
+                <Button children={"নিবন্ধন"} icon={authIcon[0].icon} />
+                <Button children={"লগইন"} icon={authIcon[1].icon} />
               </div>
             </div>
           </div>

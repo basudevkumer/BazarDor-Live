@@ -1,8 +1,12 @@
 import React from 'react'
+import CommonLogo from '../components/common/CommonLogo'
 
 const MarketPrice = () => {
   return (
-    <div>MarketPrice</div>
+    <>
+     
+     <CommonLogo/>
+    </>
   )
 }
 

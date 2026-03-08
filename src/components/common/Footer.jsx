@@ -3,6 +3,7 @@ import Container from "./Container";
 import { siteData } from "../../helper/projectArryObj";
 import Button from "../common/Button";
 import allImages from "../../helper/imageProvider";
+import CommonLogo from "./CommonLogo";
 
 const Footer = () => {
   // for images
@@ -14,7 +15,7 @@ const Footer = () => {
       <Container>
         <div className="grid grid-cols-6 gap-x-[80px]">
           <div className="">
-            <h6 className="text-success heading-six">বাজার দর</h6>
+            <CommonLogo/>
           </div>
           <div className="">
             <ul className="space-y-[10px]">

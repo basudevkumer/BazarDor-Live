@@ -1,7 +1,7 @@
 import allImages from "./imageProvider";
 
 //for images
-const {categoryImages}  = allImages
+const { categoryImages } = allImages;
 
 const navItems = [
   { id: 1, name: "হোম", path: "/" },
@@ -35,11 +35,11 @@ const siteData = {
   ],
 
   aboutUs: [
-    { id: 1, name: "কোম্পানির তথ্য", path: "/about/company-information" },
-    { id: 2, name: "ক্যারিয়ার", path: "/about/careers" },
-    { id: 3, name: "স্টোরের অবস্থান", path: "/about/store-location" },
-    { id: 4, name: "অ্যাফিলিয়েট প্রোগ্রাম", path: "/about/affiliate-program" },
-    { id: 5, name: "কপিরাইট", path: "/about/copyright" },
+    { id: 1, name: "কোম্পানির তথ্য", path: "/company-information" },
+    { id: 2, name: "ক্যারিয়ার", path: "/careers" },
+    { id: 3, name: "স্টোরের অবস্থান", path: "/store-location" },
+    { id: 4, name: "অ্যাফিলিয়েট প্রোগ্রাম", path: "/affiliate-program" },
+    { id: 5, name: "কপিরাইট", path: "/copyright" },
   ],
 };
 const categoriesItemsHeadings = [
@@ -218,7 +218,7 @@ const productPriceItems = [
     yesterdayPrice: "৳80",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[0].img,
-    imgAlt: "চাল"
+    imgAlt: "চাল",
   },
   {
     id: 2,
@@ -227,7 +227,7 @@ const productPriceItems = [
     yesterdayPrice: "৳125",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[1].img,
-    imgAlt: "ডাল"
+    imgAlt: "ডাল",
   },
   {
     id: 3,
@@ -236,7 +236,7 @@ const productPriceItems = [
     yesterdayPrice: "৳55",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[2].img,
-    imgAlt: "শাকসবজি"
+    imgAlt: "শাকসবজি",
   },
   {
     id: 4,
@@ -245,7 +245,7 @@ const productPriceItems = [
     yesterdayPrice: "৳145",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[3].img,
-    imgAlt: "ফলমূল"
+    imgAlt: "ফলমূল",
   },
   {
     id: 5,
@@ -254,7 +254,7 @@ const productPriceItems = [
     yesterdayPrice: "৳300",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[4].img,
-    imgAlt: "মাছ"
+    imgAlt: "মাছ",
   },
   {
     id: 6,
@@ -263,7 +263,7 @@ const productPriceItems = [
     yesterdayPrice: "৳700",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[5].img,
-    imgAlt: "মাংস"
+    imgAlt: "মাংস",
   },
   {
     id: 7,
@@ -272,7 +272,7 @@ const productPriceItems = [
     yesterdayPrice: "৳145",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[6].img,
-    imgAlt: "ডিম"
+    imgAlt: "ডিম",
   },
   {
     id: 8,
@@ -281,7 +281,7 @@ const productPriceItems = [
     yesterdayPrice: "৳90",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[7].img,
-    imgAlt: "দুধ"
+    imgAlt: "দুধ",
   },
   {
     id: 9,
@@ -290,7 +290,7 @@ const productPriceItems = [
     yesterdayPrice: "৳185",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[8].img,
-    imgAlt: "ভোজ্য তেল"
+    imgAlt: "ভোজ্য তেল",
   },
   {
     id: 10,
@@ -299,7 +299,7 @@ const productPriceItems = [
     yesterdayPrice: "৳730",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[9].img,
-    imgAlt: "মসলা"
+    imgAlt: "মসলা",
   },
   {
     id: 11,
@@ -308,7 +308,7 @@ const productPriceItems = [
     yesterdayPrice: "৳63",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[10].img,
-    imgAlt: "আটা"
+    imgAlt: "আটা",
   },
   {
     id: 12,
@@ -317,7 +317,7 @@ const productPriceItems = [
     yesterdayPrice: "৳130",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[11].img,
-    imgAlt: "চিনি"
+    imgAlt: "চিনি",
   },
   {
     id: 13,
@@ -326,7 +326,7 @@ const productPriceItems = [
     yesterdayPrice: "৳40",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[12].img,
-    imgAlt: "লবণ"
+    imgAlt: "লবণ",
   },
   {
     id: 14,
@@ -335,7 +335,7 @@ const productPriceItems = [
     yesterdayPrice: "৳780",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[13].img,
-    imgAlt: "চা"
+    imgAlt: "চা",
   },
   {
     id: 15,
@@ -344,7 +344,7 @@ const productPriceItems = [
     yesterdayPrice: "৳105",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[14].img,
-    imgAlt: "পেঁয়াজ"
+    imgAlt: "পেঁয়াজ",
   },
   {
     id: 16,
@@ -353,8 +353,8 @@ const productPriceItems = [
     yesterdayPrice: "৳35",
     dateTimes: "৬ মার্চ ২০২৬",
     srcImage: categoryImages[15].img,
-    imgAlt: "আলু"
-  }
+    imgAlt: "আলু",
+  },
 ];
 const sortOptions = [
   { label: "ডিফল্ট সাজানো", value: "" },
@@ -363,7 +363,6 @@ const sortOptions = [
   { label: "পণ্যের নাম (অ → হ)", value: "name-asc" },
   { label: "পণ্যের নাম (হ → অ)", value: "name-desc" },
 ];
-
 
 // src/data/products.js
 
@@ -610,7 +609,12 @@ const productsBanner = [
   },
 ];
 
-
-
-
-export { navItems, siteData, categoriesItemsHeadings, categoriesItems,productPriceItems ,sortOptions,productsBanner};
+export {
+  navItems,
+  siteData,
+  categoriesItemsHeadings,
+  categoriesItems,
+  productPriceItems,
+  sortOptions,
+  productsBanner,
+};

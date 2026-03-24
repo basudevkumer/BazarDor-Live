@@ -168,3 +168,17 @@ input:focus-visible {
   scrollbar-width: thin;
   scrollbar-color: transparent transparent;
 }
+
+/* Ticker animation */
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@utility animate-ticker {
+  animation: ticker 22s linear infinite;
+}

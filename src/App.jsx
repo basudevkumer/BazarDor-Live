@@ -6,6 +6,7 @@ import MarketPrice from "./pages/MarketPrice";
 import MarketUpdates from "./pages/MarketUpdates";
 import SubmitPrice from "./pages/SubmitPrice";
 import About from "./pages/About";
+import FAQ from "./pages/FAQ";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path={`/market-news`} element={<MarketUpdates />}></Route>
           <Route path={`/submit-price`} element={<SubmitPrice />}></Route>
           <Route path={`/about`} element={<About />}></Route>
+          <Route path={`/faq`} element={<FAQ />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

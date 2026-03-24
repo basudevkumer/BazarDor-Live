@@ -12,6 +12,7 @@ import CompanyInfo from "./pages/CompanyInfo";
 import Career from "./pages/Career";
 import Location from "./pages/Location";
 import Affilate from "./pages/Affilate";
+import CopyRight from "./pages/CopyRight";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
           <Route path={`/careers`} element={<Career />}></Route>
           <Route path={`/store-location`} element={<Location />}></Route>
           <Route path={`/affiliate-program`} element={<Affilate />}></Route>
+          <Route path={`/copyright`} element={<CopyRight />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

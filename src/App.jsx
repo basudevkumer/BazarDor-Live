@@ -10,6 +10,7 @@ import FAQ from "./pages/FAQ";
 import Blog from "./pages/Blog";
 import CompanyInfo from "./pages/CompanyInfo";
 import Career from "./pages/Career";
+import Location from "./pages/Location";
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Route path={`/blog`} element={<Blog />}></Route>
           <Route path={`/company-information`} element={<CompanyInfo />}></Route>
           <Route path={`/careers`} element={<Career />}></Route>
+          <Route path={`/store-location`} element={<Location />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

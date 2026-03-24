@@ -11,6 +11,7 @@ import Blog from "./pages/Blog";
 import CompanyInfo from "./pages/CompanyInfo";
 import Career from "./pages/Career";
 import Location from "./pages/Location";
+import Affilate from "./pages/Affilate";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
           <Route path={`/company-information`} element={<CompanyInfo />}></Route>
           <Route path={`/careers`} element={<Career />}></Route>
           <Route path={`/store-location`} element={<Location />}></Route>
+          <Route path={`/affiliate-program`} element={<Affilate />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

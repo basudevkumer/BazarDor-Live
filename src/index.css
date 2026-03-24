@@ -9,20 +9,11 @@
 
 /* for any typography  */
 @theme {
-  /* Primary Text Colors */
-  --color-primary: #111827;
-  --color-secondary: #374151;
-  --color-muted: #6b7280;
-  --color-light: #9ca3af;
-
-  /* Heading Text */
-  --color-heading: #0f172a;
-
-  /* Danger / Error */
-  --color-danger: #dc2626;
-
-  /* Success */
-  --color-success: #16a34a;
+  --color-base-green: #3bb77e;
+  --color-light-green: #def9ec;
+  --color-gray: #adadad;
+  --color-black: #253d4e;
+  --color-white: #ffffff;
   /* govt price */
   --color-govt-price: #6438ea;
 }
@@ -96,7 +87,7 @@
 }
 
 .p {
-  color: #ECFFEC;
+  color: #ecffec;
 }
 
 input:focus-visible {
@@ -108,10 +99,7 @@ input:focus-visible {
 2. green
 */
 
-
-
 /* for swiper js */
-
 
 .swiper {
   width: 100%;
@@ -121,7 +109,6 @@ input:focus-visible {
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-
 
   /* Center slide text vertically */
   display: flex;

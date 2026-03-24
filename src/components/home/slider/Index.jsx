@@ -10,6 +10,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay } from "swiper/modules";
+import { productsBanner } from "../../../helper/projectArryObj";
 
 const Sliders = () => {
   const progressCircle = useRef(null);
@@ -32,10 +33,10 @@ const Sliders = () => {
         onAutoplayTimeLeft={onAutoplayTimeLeft}
         className="mySwiper"
       >
-        {[...new Array(5)].map((_, index) => {
+        {productsBanner.map((items, index) => {
           return (
             <SwiperSlide key={index}>
-              <SliderCard />
+              <SliderCard product={items} />
             </SwiperSlide>
           );
         })}

@@ -11,7 +11,7 @@ const PastWeekMarket = () => {
           <h3 className="heading-two text-center text-primary  ">
             ঢাকার বাজারদর (গত সপ্তাহ)
           </h3>
-          <div className="grid grid-cols-4 gap-10 mt-[60px]">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mt-[60px]">
             <div className="">
               <h3 className="heading-four text-center text-primary relative after:absolute after:bottom-[-6px] after:left-1/2 after:translate-x-[-50%] after:content-[''] after:w-[75%]  z after:h-[2px] after:bg-success">
                 সপ্তাহের সেরা পণ্য
@@ -79,7 +79,6 @@ const PastWeekMarket = () => {
                       srcImage={items.image}
                       productName={items.name}
                       productPrices={items.price}
-                      
                     />
                   );
                 })}

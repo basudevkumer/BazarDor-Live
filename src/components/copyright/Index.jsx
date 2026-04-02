@@ -5,13 +5,13 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/f
 
 const CopyrightPage = () => {
   return (
-    <section className="bg-gradient-to-br from-[#f8fffe] to-[#e8f5ef] py-12 sm:py-16 md:py-20">
+    <section className=" py-12 sm:py-16 md:py-20">
       <Container>
         <div className="px-4 sm:px-6 md:px-0 max-w-5xl mx-auto">
 
           {/* Heading */}
           <div className="text-center mb-12 sm:mb-16">
-            <h1 className="heading-one text-[#253d4e] font-bold mb-4">
+            <h1 className="heading-one text-black font-bold mb-4">
               © ২০২৫ আজকের বাজার দর
             </h1>
             <p className="para-normal text-gray-600 max-w-2xl mx-auto">
@@ -23,7 +23,7 @@ const CopyrightPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             
             <div className="bg-white rounded-2xl border border-[#e8f5ef] p-6 hover:shadow-lg transition-all duration-300">
-              <h2 className="heading-three text-[#253d4e] font-bold mb-3">কোম্পানি তথ্য</h2>
+              <h2 className="heading-three text-black font-bold mb-3">কোম্পানি তথ্য</h2>
               <p className="para-normal text-gray-700 mb-2">
                 “আজকের বাজার দর” একটি স্বচ্ছ ও নির্ভরযোগ্য প্ল্যাটফর্ম যা প্রতিদিন আপডেটেড কৃষি বাজারের তথ্য সরবরাহ করে।
               </p>
@@ -33,7 +33,7 @@ const CopyrightPage = () => {
             </div>
 
             <div className="bg-white rounded-2xl border border-[#e8f5ef] p-6 hover:shadow-lg transition-all duration-300">
-              <h2 className="heading-three text-[#253d4e] font-bold mb-3">যোগাযোগ করুন</h2>
+              <h2 className="heading-three text-black font-bold mb-3">যোগাযোগ করুন</h2>
               <p className="para-normal text-gray-700 flex items-center gap-2 mb-2">
                 <MdLocationOn className="text-[#3bb77e]" /> 123, উত্তরা, ঢাকা 1230, বাংলাদেশ
               </p>

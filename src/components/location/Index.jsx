@@ -25,13 +25,13 @@ const LocationComp = () => {
   ];
 
   return (
-    <section className="py-10 sm:py-14 md:py-16 lg:py-20 bg-gradient-to-br from-[#f8fffe] to-[#e8f5ef]">
+    <section className="py-10 sm:py-14 md:py-16 lg:py-20 ">
       <Container>
         <div className="px-4 sm:px-6 md:px-0 max-w-5xl mx-auto">
 
           {/* Heading */}
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="heading-two text-[#253d4e] font-bold mb-4">
+            <h2 className="heading-two text-black font-bold mb-4">
               আমাদের অফিস লোকেশন
             </h2>
             <p className="para-normal text-gray-600 max-w-2xl mx-auto">
@@ -47,7 +47,7 @@ const LocationComp = () => {
                 key={index}
                 className="bg-white rounded-2xl border border-[#e8f5ef] p-6 hover:shadow-lg transition-all duration-300"
               >
-                <h3 className="heading-five text-[#253d4e] font-bold mb-3">
+                <h3 className="heading-five text-black font-bold mb-3">
                   <MdLocationOn className="inline text-[#3bb77e] mr-2" />
                   {loc.name}
                 </h3>

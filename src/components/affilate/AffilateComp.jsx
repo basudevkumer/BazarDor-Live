@@ -11,7 +11,7 @@ const AffiliateComp = () => {
   ];
 
   return (
-    <section className="py-10 sm:py-14 md:py-16 lg:py-20 bg-gradient-to-br from-[#f8fffe] to-[#e8f5ef]">
+    <section className="py-10 sm:py-14 md:py-16 lg:py-20 ">
       <Container>
         <div className="px-4 sm:px-6 md:px-0 max-w-4xl mx-auto text-center">
 

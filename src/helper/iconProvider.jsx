@@ -9,7 +9,7 @@ import {
 import { HiMiniArrowTrendingUp } from "react-icons/hi2";
 import { HiMiniArrowTrendingDown } from "react-icons/hi2";
 import { IoHomeOutline } from "react-icons/io5";
-
+import { FaBarsStaggered } from "react-icons/fa6";
 
 const allIcons = {
   search: <GoSearch />,
@@ -27,9 +27,8 @@ const allIcons = {
   ],
 
   greaterThan: <FaGreaterThan />,
-   homeIcon: <IoHomeOutline />,
-
-  
+  homeIcon: <IoHomeOutline />,
+  bar: <FaBarsStaggered />,
 };
 
 export default allIcons;

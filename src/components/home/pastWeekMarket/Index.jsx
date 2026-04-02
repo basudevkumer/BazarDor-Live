@@ -5,7 +5,7 @@ import PastMarketCard from "../../common/PastMarketCard";
 
 const PastWeekMarket = () => {
   return (
-    <section className="py-[105px] ">
+    <section className="">
       <Container>
         <div>
           <h3 className="heading-two text-center text-primary  ">

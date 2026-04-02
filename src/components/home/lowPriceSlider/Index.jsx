@@ -5,7 +5,7 @@ import CategoryLowPrices from "../../common/CategoryLowPrices";
 
 const LowPriceSlider = () => {
   return (
-    <section className="py-[120px]">
+    <section className=" py-[60px] md:py-[90px] lg:py-[120px]">
       <Container>
         <div>
           <div className="flex justify-between">

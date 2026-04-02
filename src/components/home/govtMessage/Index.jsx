@@ -27,7 +27,7 @@ const tickerMessages = [
 
 const GovtMess = () => {
   return (
-    <section className="py-[120px]">
+    <section className=" py-[50px] md:py-[90px] lg:py-[120px]">
       {/* ── TICKER BAR ── */}
       <div className="bg-[#253d4e] py-2.5 overflow-hidden">
         <div className="flex items-center">

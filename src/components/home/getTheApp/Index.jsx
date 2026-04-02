@@ -8,11 +8,10 @@ const GetTheApp = () => {
   return (
     <section
       style={{ backgroundImage: `url(${getTheAppBannar})` }}
-      className="bg-cover bg-center bg-no-repeat py-8 sm:py-12 lg:py-16"
+      className="bg-cover bg-center bg-no-repeat py-8 sm:py-12 lg:py-16 mt-[50px] md:mt-[90px] lg:mt-[120px]"
     >
       <Container>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-8 gap-x-6 lg:gap-x-10 items-center">
-
           {/* Left — Text Content */}
           <div className="text-center sm:text-left">
             <h2>
@@ -54,7 +53,6 @@ const GetTheApp = () => {
               />
             </figure>
           </div>
-
         </div>
       </Container>
     </section>

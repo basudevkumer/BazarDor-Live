@@ -83,7 +83,7 @@ const Footer = () => {
             </div>
 
             {/* Newsletter & App Download */}
-            <div className="col-span-1 sm:col-span-2 md:col-span-2 lg:col-span-1">
+            <div className="col-span-2 md:col-span-2 lg:col-span-1">
               <div className="space-y-6 sm:space-y-8">
                 {/* Newsletter Section */}
                 <div>

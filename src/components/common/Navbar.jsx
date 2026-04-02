@@ -50,10 +50,7 @@ const Navbar = () => {
                 </button>
               </div>
 
-              {/* Mobile search icon*/}
-              <button className="sm:hidden p-2 text-[#3bb77e] text-xl">
-                {search}
-              </button>
+             
 
               {/* Hamburger — */}
               <button

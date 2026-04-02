@@ -6,24 +6,21 @@ import CommonLogo from "./CommonLogo";
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
-  const { search, authIcon } = allIcons;
+  const { search, authIcon, bar, cross } = allIcons;
   const { pathname } = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <nav className="bg-white sticky top-0 z-50">
-
       {/* TOP ROW */}
       <div className="py-3 md:py-4 border-b border-gray-100 shadow-sm">
         <Container>
           <div className="flex items-center justify-between gap-3">
-
             {/* Logo */}
             <div className="flex-shrink-0">
               <CommonLogo />
             </div>
 
-          
             <div className="hidden sm:flex border-[1.5px] border-gray-200 hover:border-[#3bb77e] focus-within:border-[#3bb77e] flex-1 max-w-[500px] relative px-5 py-2.5 rounded-[40px] transition-all duration-200 bg-gray-50 focus-within:bg-white">
               <input
                 type="text"
@@ -37,7 +34,6 @@ const Navbar = () => {
 
             {/* Right side — buttons + hamburger */}
             <div className="flex items-center gap-2 flex-shrink-0">
-
               {/* Buttons —*/}
               <div className="hidden md:flex gap-2">
                 <button className="flex items-center gap-1.5 border-[1.5px] border-[#3bb77e] text-[#3bb77e] hover:bg-[#f0fdf7] active:scale-95 font-semibold rounded-xl px-4 py-2 text-sm transition-all duration-200 whitespace-nowrap">
@@ -50,25 +46,12 @@ const Navbar = () => {
                 </button>
               </div>
 
-             
-
               {/* Hamburger — */}
               <button
                 onClick={() => setMenuOpen(!menuOpen)}
-                className="lg:hidden flex items-center justify-center w-9 h-9 border-[1.5px] border-gray-200 rounded-lg text-[#253d4e] hover:border-[#3bb77e] hover:text-[#3bb77e] transition-all duration-200"
+                className="lg:hidden flex items-center justify-center text-[28px]   rounded-lg text-[#253d4e]  hover:text-[#3bb77e] transition-all duration-200 "
               >
-                {menuOpen ? (
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
-                    <line x1="18" y1="6" x2="6" y2="18" />
-                    <line x1="6" y1="6" x2="18" y2="18" />
-                  </svg>
-                ) : (
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
-                    <line x1="3" y1="6" x2="21" y2="6" />
-                    <line x1="3" y1="12" x2="21" y2="12" />
-                    <line x1="3" y1="18" x2="21" y2="18" />
-                  </svg>
-                )}
+                {menuOpen ? <span>{cross}</span> : <span>{bar}</span>}
               </button>
             </div>
           </div>
@@ -116,9 +99,10 @@ const Navbar = () => {
                     to={items.path}
                     onClick={() => setMenuOpen(false)}
                     className={`navitems block px-4 py-3 rounded-xl my-0.5 transition-colors duration-200
-                      ${pathname === items.path
-                        ? "bg-[#e8f5ef] text-[#3bb77e]"
-                        : "text-[#253d4e] hover:bg-[#f0fdf7] hover:text-[#3bb77e]"
+                      ${
+                        pathname === items.path
+                          ? "bg-[#e8f5ef] text-[#3bb77e]"
+                          : "text-[#253d4e] hover:bg-[#f0fdf7] hover:text-[#3bb77e]"
                       }`}
                   >
                     {items.name}
@@ -141,7 +125,6 @@ const Navbar = () => {
           </Container>
         </div>
       )}
-
     </nav>
   );
 };

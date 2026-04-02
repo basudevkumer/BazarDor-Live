@@ -11,7 +11,7 @@ import { HiMiniArrowTrendingDown } from "react-icons/hi2";
 import { IoHomeOutline } from "react-icons/io5";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { GiCrossMark } from "react-icons/gi";
-
+import { HiMiniArrowLongRight } from "react-icons/hi2";
 
 const allIcons = {
   search: <GoSearch />,
@@ -32,6 +32,7 @@ const allIcons = {
   homeIcon: <IoHomeOutline />,
   bar: <FaBarsStaggered />,
   cross: <GiCrossMark />,
+  arrowRight: <HiMiniArrowLongRight />,
 };
 
 export default allIcons;
